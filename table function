@@ -1,0 +1,12 @@
+<?php
+// Function to print the table of 2 using a for loop
+function printTableOf2() {
+    echo "Table of 2:\n";
+    for ($i = 1; $i <= 10; $i++) {
+        $result = 2 * $i;
+        echo "2 x $i = $result\n";
+    }
+}
+// Print table of 2
+printTableOf2();
+?>
