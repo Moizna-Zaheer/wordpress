@@ -1,0 +1,12 @@
+<?php
+// Assign values to variables
+$firstNumber = 2;
+$secondNumber = 5;
+$thirdNumber = 3;
+
+// Find the greatest number
+$greatestNumber = max($firstNumber, $secondNumber, $thirdNumber);
+
+// Display the result
+echo "The greatest number is: " . $greatestNumber;
+?>
